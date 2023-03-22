@@ -1,17 +1,15 @@
 {
     "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/root/apue.3e/include"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64"
-        }
+      {
+        "name": "Linux",
+        "includePath": ["${workspaceFolder}/**","/root/apue.3e/include"],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+      }
     ],
     "version": 4
-}
+  }
+  
