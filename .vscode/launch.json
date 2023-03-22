@@ -10,11 +10,12 @@
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}.o",
       "args": [],
-      "stopAtEntry": true,
+      "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
-      "MIMode": "lldb",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "C: clang build active file"
     }
   ]
